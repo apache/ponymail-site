@@ -40,14 +40,14 @@
 <ul>
 <li>Create a new branch off master called X.Y (ideally, master is always releasable).</li>
 <li>Tarball the branch, sans the .git directory: <code>git archive --format=tar.gz -o ~/ponymail-X.Y.tar.gz HEAD</code></li>
-<li>Create checksums of the archive (make sure your PGP key is in our <a href="https://dist.apache.org/repos/dist/dev/incubator/ponymail/KEYS">KEYS</a> file!):</li>
+<li>Create checksums of the archive (make sure your PGP key is in our <a href="https://dist.apache.org/repos/dist/release/ponymail/KEYS">KEYS</a> file!):</li>
 <li>Make a checksum for the archive itself: <code>sha256sum ponymail-X.Y.tar.gz &gt; ponymail-X.Y.tar.gz.sha256</code></li>
 <li>Sign the archive: <code>gpg --output ponymail-X.Y.tar.gz.asc --sign ponymail-X.Y.tar.gz</code> OR</li>
 <li>Sign the checksum: <code>gpg --output ponymail-X.Y.tar.gz.sha256.asc --sign ponymail-X.Y.tar.gz.sha256</code></li>
-<li>Push the artefacts to <code>https://dist.apache.org/repos/dist/dev/incubator/ponymail/</code> via subversion</li>
+<li>Push the artefacts to <code>https://dist.apache.org/repos/dist/dev/ponymail/</code> via subversion</li>
 <li>Initate a vote on the release on dev@ponymail.a.o. To make things easier, don't bother with RC1, RC2 etc. version numbers are cheap.</li>
 <li>Summarize the vote on the dev list after 72 hours.</li>
-<li>When/If the vote passes, you can then move the artefacts to <code>https://dist.apache.org/repos/dist/release/incubator/ponymail/</code> via <code>svn mv</code></li>
+<li>When/If the vote passes, you can then move the artefacts to <code>https://dist.apache.org/repos/dist/release/ponymail/</code> via <code>svn mv</code></li>
 <li>Announce the new release :)</li>
 </ul>
 <div style="display: inline-block; background: #BBB; margin: -10px; padding: 10px;">
