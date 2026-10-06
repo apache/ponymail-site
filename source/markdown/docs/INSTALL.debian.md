@@ -31,7 +31,7 @@ sudo apt-get update && sudo apt-get install elasticsearch
 Check out a copy of Pony Mail:
 ~~~
 cd /var/www
-sudo git clone https://github.com/apache/incubator-ponymail-foal.git
+sudo git clone https://github.com/apache/ponymail-foal.git
 ~~~
 
 Start up ElasticSearch:

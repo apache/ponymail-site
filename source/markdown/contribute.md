@@ -6,12 +6,12 @@ documentation, evangelism, marketing, or helping out other users.
 
 ## Source code and issue tracker ##
 
-Our source repository is at: [https://github.com/apache/incubator-ponymail-foal](https://github.com/apache/incubator-ponymail-foal)
+Our source repository is at: [https://github.com/apache/ponymail-foal](https://github.com/apache/ponymail-foal)
 
-We currently use GitHub Issues for tracking bugs and improvements: [https://github.com/apache/incubator-ponymail-foal/issues](https://github.com/apache/incubator-ponymail-foal/issues)
+We currently use GitHub Issues for tracking bugs and improvements: [https://github.com/apache/ponymail-foal/issues](https://github.com/apache/ponymail-foal/issues)
 
 For issues with the website, please use
-https://github.com/apache/incubator-ponymail-site/issues](https://github.com/apache/incubator-ponymail-site/issues)
+https://github.com/apache/ponymail-site/issues](https://github.com/apache/ponymail-site/issues)
 
 ## Contributing guideline ##
 
@@ -22,7 +22,7 @@ To contribute to Pony Mail, follow these steps:
     * Either send an email to dev-subscribe@ponymail.apache.org OR
     * Visit [https://lists.apache.org/list.html?dev@ponymail.apache.org](https://lists.apache.org/list.html?dev@ponymail.apache.org) (You can use Google+ or ASF OAuth)
 * Find something to fix or help out with.
-* Let us know what you want to do by opening an [issue](https://github.com/apache/incubator-ponymail-foal/issues) or a pull request.
+* Let us know what you want to do by opening an [issue](https://github.com/apache/ponymail-foal/issues) or a pull request.
 * Join us on #ponymail on the Freenode IRC network.
 
 
@@ -36,7 +36,7 @@ repository configured as a remote. In this case we will add it as a
 remote called "ponymail":
 ~~~
 cd ponymail
-git remote add ponymail https://github.com/apache/incubator-ponymail-foal.git
+git remote add ponymail https://github.com/apache/ponymail-foal.git
 ~~~
 
 #### Create the feature branch

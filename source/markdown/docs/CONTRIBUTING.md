@@ -11,7 +11,7 @@ us know either through an issue/PR here or on the mailing list.
 
 ## Code ##
 
-The Pony Mail code is on GitHub at https://github.com/apache/incubator-ponymail-foal
+The Pony Mail code is on GitHub at https://github.com/apache/ponymail-foal
 and pull requests are welcome.
 
 ## Mailing lists ##

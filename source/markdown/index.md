@@ -54,7 +54,7 @@ list size and available bandwidth.
 ### TODO: ###
 This is a list of what we would love to get done:
 
-* Start on the [project's documentation](https://github.com/apache/incubator-ponymail-site) (WIP)
+* Start on the [project's documentation](https://github.com/apache/ponymail-site) (WIP)
 * Rework JS, turn those ugly innerHTML hacks into proper DOM handling
 * Set up notification system (depends on reply system) (works, but still *WIP!*)
 * Have it work with ES with auth mode or via HTTPS
