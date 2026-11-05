@@ -9,7 +9,7 @@ on:
 
 # only need latest workflow to run
 concurrency:
-  group: ${{ github.head_ref }}
+  group: website-build
   cancel-in-progress: true
 
 permissions:
