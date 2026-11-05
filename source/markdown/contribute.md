@@ -11,7 +11,7 @@ Our source repository is at: [https://github.com/apache/ponymail-foal](https://g
 We currently use GitHub Issues for tracking bugs and improvements: [https://github.com/apache/ponymail-foal/issues](https://github.com/apache/ponymail-foal/issues)
 
 For issues with the website, please use
-https://github.com/apache/ponymail-site/issues](https://github.com/apache/ponymail-site/issues)
+[https://github.com/apache/ponymail-site/issues](https://github.com/apache/ponymail-site/issues)
 
 ## Contributing guideline ##
 
