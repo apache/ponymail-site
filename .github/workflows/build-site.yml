@@ -7,12 +7,17 @@ on:
     - 'source/**/*'
     - '.github/workflows/build-site.yml'
 
+# only need latest workflow to run
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
     - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
     - name: Installs
