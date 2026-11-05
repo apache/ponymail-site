@@ -5,6 +5,7 @@ NOTE: This is now handled by GitHub, you only need to change the markdown
 # Building the web site locally
 
 * Install the markdown module for Python 3: sudo pip3 install markdown
+(or you can install it locally: python3 -m pip install markdown --user [--break-system-packages])
 * Edit or create (or delete) the appropriate file in source/ (you can have sub-dirs there)
 * open a shell
 * remove all the html files under content: find content -type f -name '*.html' -delete
@@ -12,3 +13,13 @@ NOTE: This is now handled by GitHub, you only need to change the markdown
 * go to the source/ dir
 * Run: python3 generate.py
 * Commit the changes to git :)
+
+# viewing the site locally
+
+```shell
+cd content
+python3 http.server
+```
+
+Browse to http://localhost:8000/
+
